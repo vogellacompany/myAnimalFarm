@@ -53,8 +53,7 @@ class MyProgramm {
 			sheep.feed(new Apple());
 			sheep.feed(new Potato());
 		} catch (DisgustingException e) {
-			System.out
-					.println("Sheep do not like to eat some Food. Which one?");
+			System.out.println("Sheep do not like to eat some Food. Which one?");
 		}
 		System.out.println("Handled exception correctly");
 
