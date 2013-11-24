@@ -49,7 +49,7 @@ class MyProgramm {
 
 		// try feeding the sheep
 		try {
-			sheep.feed(new Beef()); // Sheeps better not eat meat (see BSE)
+			sheep.feed(new Beef()); // Sheep are herbivore!
 			sheep.feed(new Apple());
 			sheep.feed(new Potato());
 		} catch (DisgustingException e) {
